@@ -1,0 +1,11 @@
+@import './variables';
+
+body {
+    font-family: 'Inter', sans-serif;
+    .container {
+        width: 540px;
+        display: flex;
+        margin: auto;
+        gap: 56px;
+    }
+}
