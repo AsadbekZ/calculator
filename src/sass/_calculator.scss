@@ -1,11 +1,11 @@
 @import "./variables";
 
-.calculator {
+.board {
   width: 50%;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  .box {
+  .item {
     padding: 4px;
     border-radius: 6px;
     border: 1px solid $gray;
@@ -44,6 +44,7 @@
                 border: 2px solid $main;
             }
             &:active { 
+                color: white;
                 background-color: $main;
             }
         }
@@ -71,6 +72,7 @@
                 border: 2px solid $main;
             }
             &:active { 
+                color: white;
                 background-color: $main;
             }
         }        

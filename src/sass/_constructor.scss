@@ -1,8 +1,7 @@
 @import './variables';
 
-.constructor {
+.board:last-of-type {
     border: 2px dashed $gray;
     border-radius: 6px;
     width: 50%;
-    
 }
